@@ -1,6 +1,6 @@
 # Dokumentasi simulasi login (dua folder)
 
-Dokumen ini menjelaskan **dua aplikasi mini PHP** di proyek `mk_web` yang dipakai untuk memahami **proses login**: `simulasi_login` dan `simulasi_login_enkripsi`. Keduanya sengaja **dipisah** agar fokus pembelajaran jelas: dulu mekanisme alur (form → database → sesi), lalu cara **menyimpan sandi** yang layak dipakai di aplikasi sungguhan.
+Dokumen ini menjelaskan **dua aplikasi mini PHP** dalam repositori (`simulasi_login` vs `simulasi_login_enkripsi`) untuk memahami **proses login**. Keduanya sengaja **dipisah** agar fokus pembelajaran jelas: dulu mekanisme alur (form → database → sesi), lalu cara **menyimpan sandi** yang layak dipakai di aplikasi sungguhan.
 
 ---
 
@@ -141,10 +141,10 @@ Sesuaikan **user/password MySQL** di `config/database.php` di dalam tiap folder 
 
 ## Akses lewat browser
 
-Sesuaikan path jika folder proyek Anda berbeda:
+Sesuaikan nama folder di `www` (contoh: proyek dikloning sebagai `Pemrograman-Web-Dasar-2-Login` atau disematkan di `mk_web`):
 
-- Non-enkripsi: `http://localhost/mk_web/simulasi_login/`
-- Ter-hash: `http://localhost/mk_web/simulasi_login_enkripsi/`
+- Non-enkripsi: `http://localhost/Pemrograman-Web-Dasar-2-Login/simulasi_login/`
+- Ter-hash: `http://localhost/Pemrograman-Web-Dasar-2-Login/simulasi_login_enkripsi/`
 
 ---
 
