@@ -23,7 +23,7 @@
 
 declare(strict_types=1);
 
-// Host MySQL di Laragon / XAMPP biasanya 127.0.0.1 (setara localhost)
+// Host MySQL di Laragon biasanya 127.0.0.1 (setara localhost)
 $host = '127.0.0.1';
 
 // Nama database harus sama dengan yang dibuat di setup.sql

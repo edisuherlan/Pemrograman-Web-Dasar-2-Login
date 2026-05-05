@@ -36,11 +36,11 @@ Database MySQL **berbeda** antar folder:
 
 ---
 
-## Instalasi cepat (Laragon / XAMPP)
+## Instalasi cepat (Laragon)
 
-1. Letakkan folder proyek di web root, misalnya:  
+1. Pasang [Laragon](https://laragon.org/) jika belum. Letakkan folder proyek di web root Laragon, misalnya:  
    `C:\laragon\www\Pemrograman-Web-Dasar-2-Login`  
-   atau klon repositori ini ke lokasi tersebut.
+   (atau klon repositori ini ke lokasi tersebut.)
 
 2. **Buat database** dengan mengimpor **kedua** file SQL (urutan bebas):
 
@@ -56,7 +56,7 @@ Database MySQL **berbeda** antar folder:
 
 3. Sesuaikan **`config/database.php`** di masing-masing folder jika user/password MySQL Anda bukan `root` / kosong.
 
-4. Buka di browser (sesuaikan path):
+4. Di Laragon klik **Start All** (Apache + MySQL). Buka di browser (sesuaikan path folder Anda):
 
    - Non-enkripsi: `http://localhost/Pemrograman-Web-Dasar-2-Login/simulasi_login/`
    - Ter-hash: `http://localhost/Pemrograman-Web-Dasar-2-Login/simulasi_login_enkripsi/`

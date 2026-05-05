@@ -2,6 +2,8 @@
 
 Dokumen ini menjelaskan **dua aplikasi mini PHP** dalam repositori (`simulasi_login` vs `simulasi_login_enkripsi`) untuk memahami **proses login**. Keduanya sengaja **dipisah** agar fokus pembelajaran jelas: dulu mekanisme alur (form → database → sesi), lalu cara **menyimpan sandi** yang layak dipakai di aplikasi sungguhan.
 
+**Lingkungan:** panduan mengacu pada **[Laragon](https://laragon.org/)** (Apache/Nginx + PHP + MySQL di Windows). Letakkan proyek di `...\laragon\www\...` dan jalankan **Start All** dari Laragon sebelum mengakses browser.
+
 ---
 
 ## Daftar isi
